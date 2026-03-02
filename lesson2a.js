@@ -28,3 +28,4 @@ let countries = ["Kenya","Uganda","Rwanda","Burundi","Ethiopia","Somali","Eritre
 
 //  You can slice items of an array.
 console.log(countries.slice(2,5))
+countries.pop()
