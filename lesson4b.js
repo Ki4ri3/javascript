@@ -14,3 +14,4 @@ console.log(typeof(greet))
 (function(){
     console.log("Welcome to the world of programming...")
 })();
+

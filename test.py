@@ -14,6 +14,25 @@
 # else:
 #    print("Ushapitwa na wakati!")
 
-i = 0
-for i in range (0,11):
-    print("The new value of i is: ",i)
+# i = 0
+# for i in range (0,11):
+    # print("The new value of i is: ",i)
+
+const number = (n) =>{
+    for (a = 1; a <= n; ){
+    (if n % 3 == 0){
+        console.log("Fizz")
+    }
+    else if(n % 5 == 0){
+        console.log("Buzz")
+    }
+    else if(n % 3 == 0 && n % 5 === 0){
+        console.log("FizzBuzz")
+    }
+    else{
+        console.log(n)
+    }
+
+}
+}
+number(50);
